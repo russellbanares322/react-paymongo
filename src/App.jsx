@@ -1,5 +1,11 @@
+import Product from "./components/Product/Product";
+
 function App() {
-  return <>Hello</>;
+  return (
+    <div className="font-karla">
+      <Product />
+    </div>
+  );
 }
 
 export default App;
